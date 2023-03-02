@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Android",
-    "slug": "Android",
+    "slug": "android",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c8731826-3eb5-4655-9ac2-225a92480d48"
+      }
+    },
+    "owner": "victorfs_32"
   }
 }
